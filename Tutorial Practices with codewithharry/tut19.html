@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height, width, border and background.</title>
+    <style>
+        #firstpara {
+            background-color: hwb(0 6% 36%);
+            height: 100px;
+            width: 700px;
+            /* border-width: 4px; */
+            /* border-style: solid;
+            border-color: green;*/
+            border-radius: 10px;
+            border: 4px solid green;
+
+        }
+
+        #secondpara {
+            background-color: red;
+            height: 100px;
+            width: 700px;
+            border-top: 2px solid violet;
+            border-right: 2px solid black;
+            border-left: 2px solid blue;
+            border-bottom: 2px solid green;
+            border-top-left-radius: 10px;
+            border-bottom-right-radius: 15px;
+        }
+
+        #thirdpara {
+            height: 500px;
+            width: 700px;
+            background-image: url('Sajid.jpg');
+            border: 2px solid red;
+            background-size: 700px;
+            background-repeat: no-repeat;
+            /*repeat x and y make repeat in x and y axis*/
+            background-position: 0px 0px;
+            /*centre-centre, centre-top, centre-bottom, px-px*/
+        }
+    </style>
+</head>
+
+<body>
+    <h2>This is heading.</h2>
+    <p id="firstpara">I have a key but no door, I have space but no room, You can enter but can't leave. what am I? A
+        keyboard.</p>
+
+    <h2>This is second heading.</h2>
+    <p id="secondpara">I have a key but no door, I have space but no room, You can enter but can't leave. what am I? A
+        keyboard.</p>
+
+    <h2>This is third heading.</h2>
+    <p id="thirdpara">I have a key but no door, I have space but no room, You can enter but can't leave. what am I? A
+        keyboard.</p>
+</body>
+
+</html>

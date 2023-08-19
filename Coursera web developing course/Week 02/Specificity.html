@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Inheritance: Specificity in CSS</title>
+   <style>
+    header.navigation p{
+        color: blue;
+    }
+    p.blurb{
+        color: red;
+    }
+    p.blurb{
+        color: green !important;
+    }
+   </style>
+</head>
+<body>
+    <header class="navigation">
+    <p class="blurb">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut natus perferendis vitae quisquam rem in animi voluptatum? Provident magni illum delectus eveniet quis veritatis, quibusdam velit, similique quo, quae deleniti.</p>
+</header>
+</body>
+</html>

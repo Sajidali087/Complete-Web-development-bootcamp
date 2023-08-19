@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background in CSS</title>
+    <style>
+        #bg{
+            width: 500px;
+            height: 500px;
+            background-color: blue;
+            /* background-image: url("MyImage.jpg"); */
+            background: url("MyImage.jpg") no-repeat, right center ;
+            background-repeat: no-repeat;
+            /* bottom right, bottom top, top left, bottom left */
+            background-position: bottom right;
+        }
+    </style>
+</head>
+<body>
+    <h1>The background property</h1>
+    <div id="bg">Background properties are fun.</div>
+</body>
+</html>

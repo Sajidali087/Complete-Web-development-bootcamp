@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Size in CSS</title>
+    <style>
+        body{
+            font-size: 120%;
+        }
+    </style>
+</head>
+<body>
+    <!-- regular text size given by browser -->
+    <div>regular text</div>
+    <!-- font size of all parent, child and subchild div is increased by 2em i.e 2x -->
+    <div style="font-size: 2em;">2em text
+        <!-- To make this div 4x, we only have to apply 2em to the div because 2em  is already applied from above -->
+        <div style="font-size: 2em;">4em text
+            <!-- To reduce the font to 2em again, we dont need to over ride. We just have to reduce the font by applying 0.5em -->
+            <div style="font-size: .5em;">2em again</div>
+        </div>
+    </div>
+</body>
+</html>

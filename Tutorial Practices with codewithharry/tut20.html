@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+    <style>
+        body {
+            background-color: cyan;
+        }
+
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            background-color: #998991;
+            border: 2px solid rgb(34 169 63);
+            /* We can set margin/padding right, left, top , bottom */
+            /* padding-bottom: 50px;
+        padding-left: 50px;
+        padding-top: 50px;
+        padding-right: 50px; */
+
+            /* margin/padding: top right bottom left; in px */
+            /* padding: 43px 23px 98px 56px;
+
+        padding: y(top/bottom) x(left/right); */
+            padding: 3px 11px;
+            margin: 16px 20px;
+            border-radius: 20px;
+            width: 220px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3>this is my first heading.</h3>
+        <p id="first">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto labore ad totam dolore sed!
+            Repellat tenetur in asperiores amet doloribus, maxime numquam cum at excepturi?</p>
+    </div>
+    <div class="container">
+        <h3>this is my second heading.</h3>
+        <p id="second">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto labore ad totam dolore sed!
+            Repellat tenetur in asperiores amet doloribus, maxime numquam cum at excepturi?</p>
+    </div>
+    <div class="container">
+        <h3>this is my third heading.</h3>
+        <p id="third">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto labore ad totam dolore sed!
+            Repellat tenetur in asperiores amet doloribus, maxime numquam cum at excepturi?</p>
+    </div>
+</body>
+
+</html>

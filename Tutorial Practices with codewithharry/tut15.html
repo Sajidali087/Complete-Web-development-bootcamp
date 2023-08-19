@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors in CSS </title>
+    <style>
+        /* element selector */
+        p{
+            border: 2px solid red;
+        }
+        /* id selector */
+        #firstpara{
+            color: green;
+        }
+        /* class selector */
+        .bgblue{
+            color: red;
+            background-color: blue;     
+           }
+           /* id selector*/
+           #third{
+            background-color: violet;
+           }
+           /* grouping selector */
+           footer, span{
+            background-color: violet;
+           }
+           #bgcolour{
+            color: darkblue;
+            background-color: violet;
+           }
+    </style>
+</head>
+<body>
+    <h2 id="bgcolour">CSS selectors</h2>
+    <p id="firstpara">I have a key but no door, I have space but no room, You can enter but can't leave. what am I? A
+        keyboard.</p>
+    <p id="secondPara" class="redElement bgblue">I have a key but no door, I have space but no room, You can enter but can't leave. what am I? A
+        keyboard.</p>
+        <div>
+            <p id="third">I have a key but no door, I have space but no room, You can enter but can't leave. what am I? A
+                keyboard.</p>
+                <span> This is span</span>
+        </div>
+        <footer> This is footer.</footer>
+</body>
+</html>

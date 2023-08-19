@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descendent Selector</title>
+    <style>
+        /* All li element that are inside a section element  */
+        section li{
+            color: green;
+        }
+        /* All li element that are inside article element */
+        article  li{
+            font-size: 20px;
+            color: red;
+        }
+        section, article > ul{
+          background-color: violet;
+        }
+    </style>
+</head>
+<body>
+    <h1>Descendent selector</h1>
+    <section>
+        Table of content 
+        <ul>
+            <li>Article 1</li>
+            <li>Article 2</li>
+            <li>Article 3</li>
+        </ul>
+    </section>
+    <article>
+        Shopping list
+        <ul>
+            <li>cookies</li>
+            <li>Cake</li>
+            <li>Pie</li>
+        </ul>
+    </article>
+</body>
+</html>

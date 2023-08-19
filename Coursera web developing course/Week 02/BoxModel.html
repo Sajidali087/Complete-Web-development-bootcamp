@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model in HTML</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0; 
+            padding: 0;
+        }
+        body{
+            background-color: grey;
+          
+        }
+        #box{
+            background-color: blue;
+            padding: 10px 10px 10px 10px;
+            border: 5px solid black;
+            width: 300px;
+            height: 50px;
+            margin-top: 50px;
+            overflow: auto;
+          
+        }
+        #content{
+            background-color: #90ee90;
+        }
+        h1{
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Box Model</h1>
+    <div id="box">
+        <div id="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, accusantium eligendi. Quidem commodi voluptates aliquam quasi porro quas recusandae sint voluptatibus, soluta odit sed similique eveniet veritatis deleniti! Eius optio impedit voluptatum. Quis dignissimos similique ea aliquam porro ratione voluptatum veritatis obcaecati deleniti repudiandae, assumenda accusamus maxime nam quia! Perspiciatis!</div>
+    </div>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quasi dicta, dolores quo deserunt ex eveniet vel, voluptatem amet cupiditate eligendi, voluptate sequi cum recusandae officia aspernatur? Tempora molestias sed officia eos magnam laborum voluptates quis accusamus at, illo delectus!
+    </div>
+</body>
+
+</html>
